@@ -81,6 +81,9 @@ public class App {
                 tasksmanager.save();
             }
 
+        } catch(Exception e){
+            System.out.println("An error occurred. Please try again.");
+            e.printStackTrace();
         }
     }
 }
