@@ -1,6 +1,6 @@
 ## Task Tracker
 
-Task Tracker is a project used to track and manage your tasks. In this task, you will build a simple command-line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
+[Task Tracker](https://roadmap.sh/projects/task-tracker") is a project used to track and manage your tasks. In this task, you will build a simple command-line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
 
 ### Features
 - Add, update, and delete tasks.
@@ -14,12 +14,12 @@ Task Tracker is a project used to track and manage your tasks. In this task, you
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/
-   cd task-tracker/src
+   git clone git@github.com:vcjuliocesar/task-tracker.git
+   cd task-tracker
    ```
 2. Compile the source code and run the app:
     ```bash
-    javac *.java && java App.java
+    javac -d bin src/*.java && java src/App.java
     ```
 ### Usage
 
